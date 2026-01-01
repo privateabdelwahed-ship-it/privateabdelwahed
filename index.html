@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio Website - Developer, Designer, Freelancer">
+    <meta name="keywords" content="portfolio, developer, designer, web developer">
+    <meta name="author" content="ABDELWAHED KHAJJI">
+    <title>ABDELWAHED KHAJJI | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">ABDELWAHED KHAJJI</a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">Experience</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times nav__close-icon"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <span class="hero__greeting">Hi, I'm</span>
+                <h1 class="hero__title">ABDELWAHED KHAJJI</h1>
+                <h2 class="hero__subtitle">Frontend Developer</h2>
+                <p class="hero__description">
+                    I create beautiful and functional web experiences that bring ideas to life.
+                </p>
+                <div class="hero__buttons">
+                    <a href="#projects" class="button button--primary">View Projects</a>
+                    <a href="#contact" class="button button--secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <div class="hero__image-wrapper">
+                    <div class="hero__avatar"></div>
+                    <div class="hero__shape hero__shape-1"></div>
+                    <div class="hero__shape hero__shape-2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="hero__scroll">
+            <a href="#about" class="hero__scroll-link">
+                <span>Scroll Down</span>
+                <i class="fas fa-chevron-down hero__scroll-icon"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+            
+            <div class="about__container">
+                <div class="about__image">
+                    <div class="about__img-wrapper">
+                        <div class="about__img"></div>
+                    </div>
+                </div>
+                
+                <div class="about__content">
+                    <p class="about__description">
+                        I'm a passionate frontend developer with a love for creating beautiful, 
+                        user-friendly web experiences. With expertise in modern web technologies, 
+                        I transform complex ideas into simple, elegant solutions.
+                    </p>
+                    <p class="about__description">
+                        My goal is to build applications that not only look great but also 
+                        provide exceptional user experiences. I believe in writing clean, 
+                        maintainable code and staying up-to-date with the latest web trends.
+                    </p>
+                    
+                    <div class="about__info">
+                        <div class="about__info-item">
+                            <span class="about__info-title">02+</span>
+                            <span class="about__info-name">Years<br>experience</span>
+                        </div>
+                        <div class="about__info-item">
+                            <span class="about__info-title">10+</span>
+                            <span class="about__info-name">Completed<br>projects</span>
+                        </div>
+                        <div class="about__info-item">
+                            <span class="about__info-title">01+</span>
+                            <span class="about__info-name">Companies<br>worked</span>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="button button--primary" id="download-cv">
+                        Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+            
+            <div class="skills__container">
+                <!-- Frontend Skills -->
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend Developer</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fas fa-bolt skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skills__bar" data-level="90">
+                                <span class="skills__percentage"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fas fa-bolt skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skills__bar" data-level="85">
+                                <span class="skills__percentage"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fas fa-bolt skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__bar" data-level="75">
+                                <span class="skills__percentage"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fas fa-bolt skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__bar" data-level="70">
+                                <span class="skills__percentage"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Backend Skills -->
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend Developer</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fas fa-bolt skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name">Node.js</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__bar" data-level="70">
+                                <span class="skills__percentage"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fas fa-bolt skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+                            <div class="skills__bar" data-level="60">
+                                <span class="skills__percentage"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fas fa-bolt skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name">MongoDB</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+                            <div class="skills__bar" data-level="65">
+                                <span class="skills__percentage"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools -->
+                <div class="skills__content">
+                    <h3 class="skills__title">Tools & Others</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fas fa-bolt skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__bar" data-level="75">
+                                <span class="skills__percentage"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fas fa-bolt skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name">Figma</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__bar" data-level="70">
+                                <span class="skills__percentage"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">My recent work</span>
+            
+            <div class="projects__filters">
+                <span class="projects__item active-filter" data-filter="all">All</span>
+                <span class="projects__item" data-filter="web">Web</span>
+                <span class="projects__item" data-filter="design">Design</span>
+                <span class="projects__item" data-filter="app">Apps</span>
+            </div>
+            
+            <div class="projects__container">
+                <!-- Project 1 -->
+                <div class="projects__card" data-category="web" data-project="ecommerce">
+                    <div class="projects__image">
+                        <div class="projects__img" style="background-image: url('https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80');"></div>
+                        <div class="projects__overlay">
+                            <div class="projects__buttons">
+                                <a href="projects/ecommerce/index.html" target="_blank" class="projects__button">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                                <a href="projects/ecommerce/" target="_blank" class="projects__button">
+                                    <i class="fas fa-code"></i> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__content">
+                        <h3 class="projects__title">E-Commerce Website</h3>
+                        <p class="projects__description">
+                            A modern e-commerce platform with shopping cart, user authentication, and payment integration.
+                        </p>
+                        <div class="projects__tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="projects__card" data-category="web" data-project="portfolio">
+                    <div class="projects__image">
+                        <div class="projects__img" style="background-image: url('https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80');"></div>
+                        <div class="projects__overlay">
+                            <div class="projects__buttons">
+                                <a href="projects/portfolio/index.html" target="_blank" class="projects__button">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                                <a href="projects/portfolio/" target="_blank" class="projects__button">
+                                    <i class="fas fa-code"></i> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__content">
+                        <h3 class="projects__title">Portfolio Website</h3>
+                        <p class="projects__description">
+                            A responsive portfolio website showcasing projects and skills with smooth animations.
+                        </p>
+                        <div class="projects__tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="projects__card" data-category="app" data-project="task">
+                    <div class="projects__image">
+                        <div class="projects__img" style="background-image: url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&q=80');"></div>
+                        <div class="projects__overlay">
+                            <div class="projects__buttons">
+                                <a href="projects/task-manager/index.html" target="_blank" class="projects__button">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                                <a href="projects/task-manager/" target="_blank" class="projects__button">
+                                    <i class="fas fa-code"></i> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__content">
+                        <h3 class="projects__title">Task Management App</h3>
+                        <p class="projects__description">
+                            A productivity app for managing tasks with drag-and-drop functionality and local storage.
+                        </p>
+                        <div class="projects__tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="projects__card" data-category="design" data-project="ui">
+                    <div class="projects__image">
+                        <div class="projects__img" style="background-image: url('https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80');"></div>
+                        <div class="projects__overlay">
+                            <div class="projects__buttons">
+                                <a href="projects/ui-design/index.html" target="_blank" class="projects__button">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                                <a href="projects/ui-design/" target="_blank" class="projects__button">
+                                    <i class="fas fa-code"></i> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__content">
+                        <h3 class="projects__title">UI/UX Design</h3>
+                        <p class="projects__description">
+                            Modern UI designs for mobile and web applications with focus on user experience.
+                        </p>
+                        <div class="projects__tech">
+                            <span>Figma</span>
+                            <span>Adobe XD</span>
+                            <span>Sketch</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="projects__card" data-category="web" data-project="weather">
+                    <div class="projects__image">
+                        <div class="projects__img" style="background-image: url('https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&q=80');"></div>
+                        <div class="projects__overlay">
+                            <div class="projects__buttons">
+                                <a href="projects/weather-app/index.html" target="_blank" class="projects__button">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                                <a href="projects/weather-app/" target="_blank" class="projects__button">
+                                    <i class="fas fa-code"></i> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__content">
+                        <h3 class="projects__title">Weather App</h3>
+                        <p class="projects__description">
+                            A weather application with real-time data, location-based forecasts, and beautiful UI.
+                        </p>
+                        <div class="projects__tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>API</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="projects__card" data-category="app" data-project="music">
+                    <div class="projects__image">
+                        <div class="projects__img" style="background-image: url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80');"></div>
+                        <div class="projects__overlay">
+                            <div class="projects__buttons">
+                                <a href="projects/music-player/index.html" target="_blank" class="projects__button">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                                <a href="projects/music-player/" target="_blank" class="projects__button">
+                                    <i class="fas fa-code"></i> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__content">
+                        <h3 class="projects__title">Music Player</h3>
+                        <p class="projects__description">
+                            A sleek music player with playlist management, audio controls, and visualizations.
+                        </p>
+                        <div class="projects__tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <h2 class="section__title">Experience</h2>
+            <span class="section__subtitle">My journey</span>
+            
+            <div class="experience__container">
+                <div class="experience__content">
+                    <div class="experience__data">
+                        <div class="experience__header">
+                            <h3 class="experience__title">Frontend Developer</h3>
+                            <span class="experience__subtitle">Tech Company Inc.</span>
+                            <div class="experience__calendar">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>2022 - Present</span>
+                            </div>
+                        </div>
+                        <div class="experience__rounder"></div>
+                        <div class="experience__line"></div>
+                    </div>
+                    
+                    <div class="experience__data">
+                        <div></div>
+                        <div class="experience__rounder"></div>
+                        <div class="experience__line"></div>
+                    </div>
+                    
+                    <div class="experience__data">
+                        <div class="experience__header">
+                            <h3 class="experience__title">Web Developer</h3>
+                            <span class="experience__subtitle">Startup Solutions</span>
+                            <div class="experience__calendar">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>2020 - 2022</span>
+                            </div>
+                        </div>
+                        <div class="experience__rounder"></div>
+                        <div class="experience__line"></div>
+                    </div>
+                    
+                    <div class="experience__data">
+                        <div></div>
+                        <div class="experience__rounder"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section" id="testimonials">
+        <div class="container">
+            <h2 class="section__title">Testimonials</h2>
+            <span class="section__subtitle">What clients say</span>
+            
+            <div class="testimonials__container">
+                <div class="testimonials__content testimonials__active">
+                    <div class="testimonials__data">
+                        <div class="testimonials__header">
+                            <div class="testimonials__img"></div>
+                            <div>
+                                <h3 class="testimonials__name">Sarah Johnson</h3>
+                                <span class="testimonials__client">CEO, Design Studio</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="testimonials__icon">"</i>
+                            <p class="testimonials__description">
+                                Working with this developer was an absolute pleasure. The attention to detail 
+                                and commitment to quality exceeded our expectations. Highly recommended!
+                            </p>
+                            <i class="testimonials__icon testimonials__icon--right">"</i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonials__content">
+                    <div class="testimonials__data">
+                        <div class="testimonials__header">
+                            <div class="testimonials__img"></div>
+                            <div>
+                                <h3 class="testimonials__name">Michael Chen</h3>
+                                <span class="testimonials__client">Founder, Tech Startup</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="testimonials__icon">"</i>
+                            <p class="testimonials__description">
+                                Exceptional work! The project was delivered on time and the code quality 
+                                was outstanding. Will definitely work together again.
+                            </p>
+                            <i class="testimonials__icon testimonials__icon--right">"</i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonials__content">
+                    <div class="testimonials__data">
+                        <div class="testimonials__header">
+                            <div class="testimonials__img"></div>
+                            <div>
+                                <h3 class="testimonials__name">Emily Rodriguez</h3>
+                                <span class="testimonials__client">Product Manager</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="testimonials__icon">"</i>
+                            <p class="testimonials__description">
+                                Professional, creative, and reliable. The final product was exactly what 
+                                we envisioned and more. Great communication throughout the project.
+                            </p>
+                            <i class="testimonials__icon testimonials__icon--right">"</i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonials__pagination">
+                    <span class="testimonials__dot active-dot" data-testimonial="0"></span>
+                    <span class="testimonials__dot" data-testimonial="1"></span>
+                    <span class="testimonials__dot" data-testimonial="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+            
+            <div class="contact__container">
+                <div class="contact__info">
+                    <h3 class="contact__title">Talk to me</h3>
+                    
+                    <div class="contact__card">
+                        <i class="fas fa-envelope contact__card-icon"></i>
+                        <h3 class="contact__card-title">Email</h3>
+                        <span class="contact__card-data">privateabdelwahed@gmail.com</span>
+                        <a href="mailto:your.email@example.com" class="contact__button">
+                            Write me <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="contact__card">
+                        <i class="fab fa-whatsapp contact__card-icon"></i>
+                        <h3 class="contact__card-title">WhatsApp</h3>
+                        <span class="contact__card-data">+212674319799</span>
+                        <a href="#" class="contact__button">
+                            Write me <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="contact__card">
+                        <i class="fas fa-map-marker-alt contact__card-icon"></i>
+                        <h3 class="contact__card-title">Location</h3>
+                        <span class="contact__card-data">Kenitra, Morocco</span>
+                    </div>
+                </div>
+                
+                <div class="contact__content">
+                    <form action="#" class="contact__form" id="contact-form">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Name</label>
+                            <input type="text" name="name" class="contact__form-input" placeholder="Insert your name" required>
+                            <span class="contact__form-error"></span>
+                        </div>
+                        
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Email</label>
+                            <input type="email" name="email" class="contact__form-input" placeholder="Insert your email" required>
+                            <span class="contact__form-error"></span>
+                        </div>
+                        
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Subject</label>
+                            <input type="text" name="subject" class="contact__form-input" placeholder="Insert your subject" required>
+                            <span class="contact__form-error"></span>
+                        </div>
+                        
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">Message</label>
+                            <textarea name="message" cols="30" rows="10" class="contact__form-input" placeholder="Write your message" required></textarea>
+                            <span class="contact__form-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="button button--primary">
+                            Send Message
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        
+                        <div class="contact__form-message" id="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__group">
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer__copy">
+                <p>&#169; 2024 Your Name. All rights reserved.</p>
+            </div>
+        </div>
+        
+        <a href="#" class="footer__scrollup" id="scroll-up">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
