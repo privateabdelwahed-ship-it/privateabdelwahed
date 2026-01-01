@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player | Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <div class="player-header">
+                <h1><i class="fas fa-music"></i> Music Player</h1>
+                <p>Enjoy your favorite tunes</p>
+            </div>
+
+            <div class="album-art">
+                <div class="album-image" id="album-image">
+                    <div class="vinyl-record"></div>
+                </div>
+            </div>
+
+            <div class="song-info">
+                <h2 class="song-title" id="song-title">Select a song</h2>
+                <p class="song-artist" id="song-artist">--</p>
+            </div>
+
+            <div class="progress-container">
+                <span class="time current-time" id="current-time">0:00</span>
+                <div class="progress-bar">
+                    <div class="progress" id="progress"></div>
+                    <div class="progress-handle" id="progress-handle"></div>
+                </div>
+                <span class="time total-time" id="total-time">0:00</span>
+            </div>
+
+            <div class="controls">
+                <button class="control-btn" id="prev-btn"><i class="fas fa-step-backward"></i></button>
+                <button class="control-btn play-pause" id="play-pause-btn"><i class="fas fa-play"></i></button>
+                <button class="control-btn" id="next-btn"><i class="fas fa-step-forward"></i></button>
+            </div>
+
+            <div class="playlist">
+                <h3>Playlist</h3>
+                <div class="playlist-items" id="playlist-items">
+                    <!-- Playlist items will be added here -->
+                </div>
+            </div>
+
+            <div class="volume-control">
+                <span><i class="fas fa-volume-up"></i></span>
+                <input type="range" id="volume-slider" min="0" max="100" value="70" class="volume-slider">
+                <span id="volume-value">70%</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
